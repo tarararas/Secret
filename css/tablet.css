@@ -1,0 +1,24 @@
+h1{
+  font-size: 7em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+.menu{
+  flex-wrap: wrap;
+}
+
+.mn{
+  height: auto;
+  width: auto;
+}
+.produktt{
+  width: 45%;
+  margin-bottom: 3em;
+}

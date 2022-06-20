@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk-ua" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/s.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/desctop.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="css/phone.css" media="screen and (max-width: 480px)">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <title>Secret</title>
+  </head>
+  <body>
+    <section id="section1">
+
+      <video poster="img/back_img2.jpg" autoplay muted loop>
+        <source src="video/video.mp4" type="video/mp4">
+      </video>
+
+      <div id="head_navigation_phone">
+        <div class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu">
+          <nav>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#parfumes">Perfumes</a></li>
+            <li><a href="#cosmetics">Cosmetics</a></li>
+            <li><a href="#for_body">For body</a></li>
+            <li><a href="#for_hair">For hair</a></li>
+          </nav>
+        </div>
+
+        <script type="text/javascript">
+        let menuBtn = document.querySelector('.menu-btn');
+        let menu = document.querySelector('.menu');
+        menuBtn.addEventListener('click', function(){
+          menuBtn.classList.toggle('active');
+          menu.classList.toggle('active');
+          })
+        </script>
+
+        <div class="infoo">
+          <div class="info"> <a href="#"> <img src="img/info.png" alt=""> </a> </div>
+          <div class="info"> <a href="#"> <img src="img/shop.png" alt=""> </a> </div>
+        </div>
+      </div>
+
+      <div id="head_navigation">
+        <div class="menu">
+          <div class="mn"><a href="#parfumes"><h3>Perfumes</h3></a></div>
+          <div class="mn"><a href="#cosmetics"><h3>Cosmetics</h3></a></div>
+          <div class="mn"><a href="#for_body"><h3>For body</h3></a></div>
+          <div class="mn"><a href="#for_hair"><h3>For hair</h3></a></div>
+        </div>
+
+        <div class="about_us">
+          <div class="mn1"><a href="#section2"><h2>About Us</h2></a></div>
+          <div class="mn1"> <a href="#section3"> <img src="img/shop.png" alt=""> </a> </div>
+        </div>
+      </div>
+
+      <div class="pod_zagolovog">
+        <h2>Use the opportunity to <br> look flawless every day</h2>
+      </div>
+
+      <div class="zagolovog">
+        <h1>Secret</h1>
+      </div>
+
+
+    </section>
+
+    <section id="section2">
+
+      <div style=" height: 2em;"></div>
+
+      <div class="zag"><p>About Us</p></div>
+
+      <div id="about_uus">
+
+        <div class="pro_nas">
+          <p>Інтернет-магазин косметики та парфумерії. Тут Ви
+            знайдете надзвичайно широкий асортимент товарів за
+            приємними цінами, який задовольнить усі Ваші потреби.</p>
+            <p>Щоб спростити процес покупок та зберегти Ваш час,
+            товари в інтернет-магазині Secret поділені на кілька
+            категорій.</p>
+          </div>
+
+          <div class="svyaz">
+            <div class="kontaktu">
+              <p>Режим роботи<br>
+                Інтернет магазин Secret працює:<br>
+                щодня з 09:00 до 20:00<br>
+                <div style="height: 2em;"></div>
+                МИ ЗАВЖДИ НА ЗВ'ЯЗКУ!<br>
+                <a href="tel:+380963401246">+380963401246</a><br>
+                <a href="tel:+380990237029">+380990237029</a></p>
+              </div>
+
+              <div class="telephon">
+                Залиште номер телефону і ми з Вами зв’яжемось
+              </div>
+
+              <form class="" action="pages/forma.html" method="post" id="forma" >
+                <div class="form">
+                  <label for="telephone"></label>
+                  <input type="tel" name="номер телефону" value="" placeholder="+380 123 45 67">
+                  <button id="button "type="submit" name="Надіслати">Надіслати</button>
+                </div>
+              </form>
+            </div>
+          </div>
+    </section>
+
+    <section id="section3">
+
+      <div style=" height: 2em;"></div>
+
+      <div class="zag"><p>Categories</p></div>
+
+      <div class="pprodukt">
+        <div class="produkt">
+          <div id="parfumes"> <img src="img/parfum.jpg" alt="" class="photoo"> <a href="pages/shop.html"><p class="pidpus">Parfumes</p></a> </div>
+          <div id="cosmetics"> <img src="img/cosmetic.jpg" alt="" class="photoo">  <a href="pages/shop.html"><p class="pidpus">Cosmetics</p></a> </div>
+          <div id="for_body"> <img src="img/shampoo.jpg" alt="" class="photoo">  <a href="pages/shop.html"><p class="pidpus">For hair</p></a> </div>
+          <div id="for_hair"> <img src="img/gel.png" alt="" class="photoo">  <a href="pages/shop.html"><p class="pidpus">For body</p></a> </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+      <div class="foot">
+        <div class="footer_menu">
+          <div class="secret">Secret</div>
+          <div class="mn_foot"><a href="#section2"><h3>Про нас</h3></a></div>
+          <div class="mn_foot"><a href="#section3"><h3>Продукція</h3></a></div>
+          <div class="mn_foot"><a href="#footer"><h3>Контакти</h3></a></div>
+        </div>
+
+        <div class="prava">
+          <h3>Всі права захищено|2022</h3>
+        </div>
+
+        <div class="kontakt">
+          <div class="nomer"><h3>
+          <a href="tel:+380990237029">+380990237029</a><br>
+          <a href="tel:+380963401246">+380963401246</a><br>
+          Смт. Демидівка <br>
+          вул. Івана Франка, 1</h3>
+          </div>
+
+          <div class="soc">
+            <div class="socie"> <a href="#" target="_blank"> <img src="img/inst.png" alt="" class="socie_photo"> </a> </div>
+            <div class="socie"> <a href="#" target="_blank"> <img src="img/facebook.png" alt="" class="socie_photo"> </a> </div>
+            <div class="socie"> <a href="https://t.me/@id581365707" target="_blank" > <img src="img/telega.png" alt="" class="socie_photo"> </a> </div>
+            <div class="socie"> <a href="Viber:+380686212035" target="_blank"> <img src="img/viber.png" alt="" class="socie_photo"> </a> </div>
+          </div>
+
+          <h3 style="text-align: right;">Політика конфіденційності</h3>
+
+        </div>
+
+      </div>
+    </footer>
+
+  </body>
+</html>

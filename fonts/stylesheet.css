@@ -1,0 +1,22 @@
+
+
+@font-face {
+    font-family: 'Comial4448';
+    src: url('Comial4448.ttf') format('woff') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leto Text Sans Defect';
+    src: url('Leto Text Sans Defect.ttf') format('woff2') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Symbola';
+    src: url('Symbola.ttf') format('woff') ;
+    font-weight: normal;
+    font-style: normal;
+}

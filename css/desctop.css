@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  font-family: Symbola;
+  line-height: 1.5em;
+}
+
+h1{
+  font-size: 10em;
+}
+
+h2{
+  font-size: 3em;
+}
+
+h3{
+  font-size: 2em;
+}
+
+.zag{
+  text-align: center;
+  margin: 0 40% 0 40%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  font-size: 3em;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+#section1{
+  background-image: url(../img/back_img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#head_navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5% 0 5%;
+  height: auto;
+}
+
+#head_navigation a{
+  text-decoration: none;
+}
+
+#head_navigation_phone{
+  display: none;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  width: 65%;
+  align-items: center;
+  text-align: center;
+}
+
+.menu a{
+  color: white;
+}
+
+.mn{
+  width: auto;
+  margin: 3%;
+}
+
+.about_us{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.about_us a{
+  color: white;
+}
+
+.mn1{
+  width: auto;
+  text-align: center;
+}
+
+.pod_zagolovog{
+  text-align: right;
+  margin: 10% 5% 5% 5%;
+}
+
+.zagolovog{
+  text-align: right;
+  margin: 10% 5% 0 5%;
+}
+
+#section2{
+  background-image: url(../img/back_img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#about_uus{
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 5% 0 5%;
+  padding-bottom: 5%;
+}
+
+.pro_nas{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 3%;
+  font-size: 1.5em;
+  text-align: justify;
+  text-indent: 1em;
+}
+
+.svyaz{
+  width: 45%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.kontaktu{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 3%;
+}
+
+.kontaktu a{
+  text-decoration: none;
+  color: black;
+}
+
+.telephon{
+  margin-top: 5%;
+}
+
+forma{
+
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+#telephone{
+
+}
+
+input{
+  height: 2em;
+  border-radius: 20px;
+}
+
+button{
+  height: 3em;
+  width: 8em;
+  text-align: center;
+  border-radius: 2em;
+  font-family: Symbola;
+}
+
+#section3{
+  /*background-image: url(../img/back_img3.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pprodukt{
+  margin: 5% 5% 0 5%;
+}
+
+.produkt{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.produkt a{
+  color: black;
+  text-decoration: none;
+}
+
+.produkt a:hover{
+  font-size: 1em;
+}
+
+.photo{
+  width: 45%;
+}
+
+#parfumes{width: 35%;}
+#cosmetics{width: 35%;}
+#for_body{width: 35%;}
+#for_hair{width: 35%;}
+
+.photoo{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.pidpus{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 3%;
+  border: solid grey 2px;
+  width: 50%;
+  margin: 5% 0 5% 21%;
+  font-size: 2em;
+}
+
+.pidpus a hover{
+  font-size: 3em;
+}
+
+footer{
+  background-color: rgba(228, 177, 149, 0.8);
+  color: white;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5% 0 5%;
+  padding-top: 5%;
+}
+
+.footer_menu{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.footer_menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.secret{
+  font-size: 6em;
+  color: black;
+}
+
+.prava{
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 5%;
+  text-align: center;
+
+}
+
+.kontakt{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.nomer{
+  text-align: right;
+}
+
+.nomer a{
+  color: white;
+  text-decoration: none;
+}
+
+.soc{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socie{
+  width: 18%;
+  margin: 2%;
+}
+
+.socie_photo{
+  width: 100%;
+}
+
+      /*forma*/
+
+#back-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+#vidstup{
+  height: 2em;
+}
+
+.zag1{
+  text-align: center;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  font-size: 3em;
+}
+
+.holovna{
+  text-align: center;
+  width: 15%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+.holovna a{
+  text-decoration: none;
+  color: black;
+}
+        /*shop*/
+.magaz{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 5%;
+}
+
+.cosmetic_photo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+.produktt{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 0px solid black;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.produktu{
+  list-style: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  height: 100%;
+}
+.button{
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+}
